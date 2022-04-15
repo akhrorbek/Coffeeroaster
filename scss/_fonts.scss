@@ -23,3 +23,16 @@
          url("../fonts/Barlow-SemiBold.woff"),
          url("../fonts/Barlow-SemiBold.woff2");
 }
+@font-face {
+    font-family: 'Fraunces';
+    src: url("../fonts/Fraunces-Black.ttf"),
+         url("../fonts/Fraunces-Black.woff"),
+         url("../fonts/Fraunces-Black.woff2");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Barlow';
+    src: url("../fonts/Barlow-Thin.ttf"),
+         url("../fonts/Barlow-Thin.woff"),
+         url("../fonts/Barlow-Thin.woff2");
+}
