@@ -1,0 +1,57 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header {
+  padding-top: 10px;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.sitenav {
+  margin-left: auto;
+}
+
+.sitenav__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sitenav__list-item {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+}
+
+.sitenav__list-item + .sitenav__list-item {
+  margin-left: 15px;
+}
+
+.sitenav__item-link {
+  text-decoration: none;
+  color: #83888F;
+}
+
+.sitenav__item-link:hover {
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=all-blocks.css.map */

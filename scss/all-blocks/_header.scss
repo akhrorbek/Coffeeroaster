@@ -1,0 +1,36 @@
+.site-header {
+    padding-top: 10px;
+}
+.logo-link {
+    text-decoration: none;
+}
+.sitenav {
+    margin-left:auto;
+
+    &__list {
+        list-style: none;
+        display: flex;
+}
+
+
+    &__list-item {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+}
+    &__list-item + &__list-item {
+        margin-left: 15px;
+}
+
+    &__item-link {
+        text-decoration: none;
+        color: #83888F;
+}
+    &__item-link:hover {
+        color:black;
+        transition: 0.5s;
+    }
+
+}
